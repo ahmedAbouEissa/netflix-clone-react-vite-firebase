@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/netflix-clone-react-vite-firebase/">
       <App />
     </BrowserRouter>
   </StrictMode>
