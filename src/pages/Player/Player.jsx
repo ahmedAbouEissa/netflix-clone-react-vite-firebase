@@ -18,8 +18,7 @@ const Player = () => {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ODA3OGIyZWYzYzRiMWU2ODlmMmFhNGEzYjliZjQ1NSIsIm5iZiI6MTc1MjQ0NTI3MS4xNTYsInN1YiI6IjY4NzQzMTU3NGNiMTU4ZDdiZGVkODU0MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.I6_QU-FgUawC8r-ul2Gk0j50RlYE5Qs_KK0S1Unkvv0",
+      Authorization: import.meta.env.TMDb_AUTHORIZATION,
     },
   };
 
@@ -48,7 +47,7 @@ const Player = () => {
         src={back_arrow_icon}
         alt="arrow"
         onClick={() => {
-          navigate(-2);
+          navigate(-1);
         }}
       />
       <iframe
