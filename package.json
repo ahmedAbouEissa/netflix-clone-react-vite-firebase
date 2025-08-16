@@ -1,6 +1,5 @@
 {
   "name": "netfilx-clone",
-  "homepage": "https://ahmedAbouEissa.github.io/netflix-clone-react-vite-firebase",
   "private": true,
   "version": "0.0.0",
   "type": "module",
